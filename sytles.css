@@ -1,0 +1,38 @@
+body{ 
+color:rgb(0, 0, 0);
+background:wheat;
+font-family: "Oswald", system-ui;
+}
+
+header{
+border-bottom :solid 2px rgb(248, 66, 203);
+padding: 20px;
+font-size: 32px;
+
+}
+
+section{
+background: rgb(226, 13, 145);
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
+}
+
+    .chamada-texto{
+margin-right: 5%;
+}
+
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow: auto;
+    gap: 20px;
+}
+
+section {
+    padding-left: 20px;
+}
